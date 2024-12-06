@@ -1,0 +1,21 @@
+{
+  "name": "nwp220-ar-nu",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^6.0.1",
+    "vite-plugin-compression": "^0.5.1"
+  },
+  "dependencies": {
+    "@ffmpeg/core": "^0.12.6",
+    "@ffmpeg/ffmpeg": "^0.12.10",
+    "@ffmpeg/util": "^0.12.1",
+    "compression": "^1.7.5"
+  }
+}
